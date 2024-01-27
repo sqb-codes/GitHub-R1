@@ -33,8 +33,14 @@ again check for status using:
 => git checkout master
 - switch to master branch
 
-=> git merge second branch
+=> git checkout -- . 
+- Jump back to the last Commit and remove any untracked changes
+
+=> git merge second-branch
 - merge other branches with master branch
+
+=> git branch -D branch-name
+- Delete the Branch named branch-name
 
 => git remote add origin URL
 - connecting local repository to remote repository
@@ -44,3 +50,28 @@ again check for status using:
 => git push -u origin master
 - push changes to remote repository from local repository
 - branch name can be different
+
+=> git clone URL
+- clone an existing repository
+
+=> git diff
+- know exactly what you changed, not just which files were changed
+
+=> git rm filename
+- remove a file from git, remove from staging area
+
+=> git mv file_from file_to
+- rename a file in git
+
+=> git rm --cached filename
+- Another useful thing you may want to do is to keep the file in your working tree but remove it from your staging area. In other words, you may want to keep the file on your hard drive but not have Git track it anymore.
+
+=> git log -p -2
+- One of the more helpful options is -p or --patch, which shows the difference (the patch output) introduced in each commit. You can also limit the number of log entries displayed, such as using -2 to show only the last two entries.
+
+=> git log --pretty=format:"%h - %an, %ar : %s"
+- specify format explicitly
+
+=> git log --since=2.weeks
+- this command gets the list of commits made in the last two weeks
+
