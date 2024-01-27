@@ -1,20 +1,46 @@
 git basic commands
 
-git status - check status of all files and folders
-git init - initialize new repository
+=> git status - check status of all files and folders
+=> git init - initialize new repository
 
 again check for status using:
-git status
+=> git status
 
-git add
+=> git add filename
 - add files to staging area
 
-git add .
+=> git add .
 - tracks all files and add them to staging area
 
-git commit -m "file added"
+=> git commit -m "file added"
 - commit this file to repository but before running this command we need to login
 
-git config --global user.email "emailId@domain.com"
-git config --global user.name "Your name"
+=> git config --global user.email "emailId@domain.com"
+=> git config --global user.name "Your name"
 
+=> git log
+- return the logs maintained
+
+=> git branch
+- return all branch available
+
+=> git branch second-branch
+- create another branch named as second-branch
+
+=> git checkout -b third-branch
+- create and switch to another branch named as third-branch
+
+=> git checkout master
+- switch to master branch
+
+=> git merge second branch
+- merge other branches with master branch
+
+=> git remote add origin URL
+- connecting local repository to remote repository
+- origin is the name of remote machine
+
+=> git push -u origin main
+=> git push -u origin master
+- push changes to remote repository from local repository
+- branch name can be different
