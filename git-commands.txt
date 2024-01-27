@@ -1,0 +1,20 @@
+git basic commands
+
+git status - check status of all files and folders
+git init - initialize new repository
+
+again check for status using:
+git status
+
+git add
+- add files to staging area
+
+git add .
+- tracks all files and add them to staging area
+
+git commit -m "file added"
+- commit this file to repository but before running this command we need to login
+
+git config --global user.email "emailId@domain.com"
+git config --global user.name "Your name"
+
