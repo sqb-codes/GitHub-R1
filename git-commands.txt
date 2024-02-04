@@ -57,6 +57,9 @@ again check for status using:
 => git diff
 - know exactly what you changed, not just which files were changed
 
+=> git ls-files
+- list all files available in staging area
+
 => git rm filename
 - remove a file from git, remove from staging area
 
@@ -92,4 +95,6 @@ again check for status using:
 
 => git switch -c branch_name
 - switch and create another branch
+
+
 
