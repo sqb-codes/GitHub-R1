@@ -75,3 +75,21 @@ again check for status using:
 => git log --since=2.weeks
 - this command gets the list of commits made in the last two weeks
 
+=> git remote -v
+- shows you the URLs that Git has stored for the shortname to be used when reading and writing to that remote
+
+=> git remote rename pb paul
+- change a remote’s shortname. If you want to rename pb to paul, you can do so
+
+=> git remote remove paul
+- remove a remote
+
+=> git config --local --list
+- show all details of local repository
+
+=> git switch branch_name
+- switch to another branch
+
+=> git switch -c branch_name
+- switch and create another branch
+
