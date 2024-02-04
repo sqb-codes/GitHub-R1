@@ -96,5 +96,15 @@ again check for status using:
 => git switch -c branch_name
 - switch and create another branch
 
+=> git checkout git-commands.txt
+- Undoing Unstaged changes - remove changes which are not commited yet
 
+=> git checkout .
+- Undo all unstaged changes in all files
+
+=> git clearn -dn
+- will show the files that it is going to delete
+
+=> git clean -df
+- delete Unstaged file and here f stands for force
 
